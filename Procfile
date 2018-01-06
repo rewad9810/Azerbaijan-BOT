@@ -1,1 +1,1 @@
-worker: node Azerbaijan-BOT.js
+worker: node bot.js
