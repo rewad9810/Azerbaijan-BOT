@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (message.content === 'sox') {
+    	message.reply('icive');
   	}
     
     client.on('message', message => {
@@ -17,4 +17,4 @@ client.on('message', message => {
 });
 
 // THIS  MUST  BE  THIS  WAY
-client.login(process.env.Mzk5MTYwNjk2MTQwNTk1MjEw.DTOl8A.h3FYQwol6bZiF2Wze4t351n0n_I);
+client.login(process.env.BOT_TOKEN);
