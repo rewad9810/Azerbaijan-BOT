@@ -1,3 +1,19 @@
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+client.on('ready', () => {
+    console.log('I am ready!');
+});
+
+client.on('message', message => {
+    if (message.content === 'ping') {
+    	message.reply('pong');
+  	}
+});
+
+// THIS  MUST  BE  THIS  WAY
+client.login(process.env.Mzk5MTYwNjk2MTQwNTk1MjEw.DTOl8A.h3FYQwol6bZiF2Wze4t351n0n_I);
+
 const { stripIndents, oneLine } = require('common-tags');
 const Discord = require("discord.js");
 const bot = new Discord.Client();
@@ -10,7 +26,7 @@ bot.on("ready", () => {
     console.log("Qosulduu!")   
 });
 
-bot.login("Mzk5NDY4MTc2NTE5NDYyOTI0.DTOdig.-rJTdNysY52NMC4uQGYp46G1wM8")
+bot.login("Mzk5MTYwNjk2MTQwNTk1MjEw.DTOl8A.h3FYQwol6bZiF2Wze4t351n0n_I")
 
 bot.on("message", message => {
 
